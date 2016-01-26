@@ -1,0 +1,29 @@
+{
+  "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
+  "name": "isotropy-webserver",
+  "version": "0.0.1",
+  "description": "Web Server with an ES7 async await API (koa inspired).",
+  "main": "dist/isotropy-webserver.js",
+  "scripts": {
+    "test": "mocha dist/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeswin/isotropy-webserver.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-2": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-relay-plugin-loader": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": { "node": ">= 0.11.9" },
+  "keywords": ["webserver", "isotropy", "isomorphic"],
+  "license" : "MIT"
+}
